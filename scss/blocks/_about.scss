@@ -1,0 +1,26 @@
+.about {
+    margin-bottom: 20px;
+
+    &__list {
+        padding-left: 15px;
+        list-style: inside;
+    }
+
+    &__item {
+        &:not(:last-child) {
+            margin-bottom: 5px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 10px;
+        font-family: "Oswald", sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: $bl;
+    }
+
+    &__link {
+        text-decoration: underline;
+    }
+}

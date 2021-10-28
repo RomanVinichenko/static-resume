@@ -1,0 +1,60 @@
+.header {
+    margin-bottom: 40px;
+    padding-top: 50px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+
+    &__content {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__img {
+        max-width: 300px;
+    }
+
+    &__address {
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    &__mail {
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        margin-bottom: 40px;
+        padding-bottom: 10px;
+        border-bottom: 4px solid $bl;
+        font-weight: 400;
+        font-size: 45px;
+        text-transform: uppercase;
+        color: $bl;
+    }
+
+    &__subtitle {
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 24px;
+        color: $bl;
+    }
+
+    &__job {
+        margin-bottom: 10px;
+        font-weight: 700;
+        color: $accent;
+    }
+
+    &__tel,
+    &__mail {
+        display: block;
+        font-weight: 700;
+        font-size: 16px;
+        color: $green;
+    }
+}
