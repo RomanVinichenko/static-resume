@@ -1,0 +1,25 @@
+.container {
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 900px;
+}
+
+body {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 400;
+    color: $gray;
+    background-color: $wh;
+}
+
+.span-green {
+    font-weight: 700;
+    color: $green;
+}
+
+.span-bold {
+    font-weight: 700;
+}
+
+.span-underline {
+    text-decoration: underline;
+}

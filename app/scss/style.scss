@@ -1,4 +1,7 @@
 @import "base/variables";
 @import "libs/reset";
-
-/* @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"); */
+@import "blocks/header";
+@import "global";
+@import "blocks/about";
+@import "blocks/skills";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap");

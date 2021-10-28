@@ -1,0 +1,15 @@
+.skills {
+    margin-bottom: 50px;
+
+    &__title {
+        margin-bottom: 10px;
+        font-family: "Oswald", sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: $bl;
+    }
+
+    &__item {
+        margin-bottom: 5px;
+    }
+}
